@@ -27,3 +27,13 @@ console.log(flatArray);
 //----------------------- From -----------------------
 console.log(Array.from(12345));
 console.log(Array.from(`Akash khot shivpuri`));
+
+//----------------------- of function -----------------------
+
+let a=10
+let b=20
+let c=30
+
+const mergeArray = Array.of(a,b,c) // A of function takes any values as a argument and merge them into array
+console.log(mergeArray);
+
