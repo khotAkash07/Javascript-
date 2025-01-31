@@ -24,3 +24,8 @@ const chai = {
     }
 }
 console.log(chai.myFunc());
+
+//---------------- Single line Function ----------------
+
+const addTwo = (num1, num2) => (num1 + num2)
+console.log(addTwo(223,234))

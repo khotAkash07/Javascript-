@@ -7,4 +7,8 @@
 
 ((name2) => {
     console.log(`Hello ${name2}, This is my iife function 2`); 
-})("Akash")
+})("Akash");
+
+((num1, num2) => {
+    console.log( num1 + num2)
+})(12,12)
