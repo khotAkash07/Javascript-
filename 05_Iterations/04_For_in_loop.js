@@ -7,7 +7,7 @@ const myObj = {
 }
 
 for(const key in myObj){
-    console.log(`${key} => ${myObj[key]}`);
+   // console.log(`${key} => ${myObj[key]}`);
     
 }
 
@@ -16,5 +16,8 @@ for(const key in myObj){
 const myArr = [12,13,14,15,16]
 
 for(const array in myArr){
-    console.log(`${array} => ${myArr[array]}`);    
+   // console.log(`${array} => ${myArr[array]}`);    
 }
+
+const n  = 12 
+console.log(n.toString(16)); 
