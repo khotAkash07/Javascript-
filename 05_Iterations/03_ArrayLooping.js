@@ -18,8 +18,23 @@ d.set("name" , "Akash")
 //console.log(d);
 
 for(const [key, value] of d){
-    console.log(`${key} => ${value}`);
+   // console.log(`${key} => ${value}`);
     
 }
 
+const abc = new Map
+abc.set("one" , "Akash")
+abc.set("Two" , "Abhi")
+abc.set("Three" , "Shubham")
+
+//console.log(abc)
+
+for(const [keys,val] of abc){
+   //console.log(`${keys} => ${val}`)
+}
+for(const [keys,val] in abc){
+   console.log(`${keys} => ${val}`)
+}
+
 // For of loop doesn't work with objects 
+
